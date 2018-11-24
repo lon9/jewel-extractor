@@ -53,7 +53,7 @@ func (e *Extractor) Extract(fname string, slot int, lang string) (err error) {
 		return errors.New("supported languages are en, ja, zh, ko")
 	}
 
-	b, err := ioutil.ReadFile("SAVEDATA1000")
+	b, err := ioutil.ReadFile(fname)
 	if err != nil {
 		return
 	}
