@@ -17,4 +17,4 @@
 jewel-extractor
 SAVEDATA1000
 a_main-packr.go
-dist
+./dist
